@@ -1,0 +1,27 @@
+[
+  {"name":"Python","group":"languages","value":90,"color":"#3572A5"},
+  {"name":"TypeScript","group":"languages","value":82,"color":"#2b7489"},
+  {"name":"JavaScript","group":"languages","value":78,"color":"#f1e05a"},
+  {"name":"Java","group":"languages","value":70,"color":"#b07219"},
+  {"name":"SQL","group":"languages","value":80,"color":"#e38c00"},
+  {"name":"HTML/CSS","group":"languages","value":72,"color":"#e34c26"},
+
+  {"name":"FastAPI","group":"frameworks","value":85,"color":"#009688"},
+  {"name":"LangChain","group":"frameworks","value":82,"color":"#7f56da"},
+  {"name":"React","group":"frameworks","value":76,"color":"#61dafb"},
+  {"name":"Next.js","group":"frameworks","value":70,"color":"#000000"},
+  {"name":"Spring Boot","group":"frameworks","value":65,"color":"#6db33f"},
+  {"name":"Docker","group":"frameworks","value":76,"color":"#2496ed"},
+  {"name":"FAISS","group":"frameworks","value":70,"color":"#ff7043"},
+  {"name":"pgvector","group":"frameworks","value":66,"color":"#2ecc71"},
+  {"name":"Supabase/Postgres","group":"frameworks","value":74,"color":"#2ecc71"},
+
+  {"name":"Pandas","group":"data","value":86,"color":"#150458"},
+  {"name":"NumPy","group":"data","value":80,"color":"#013243"},
+  {"name":"scikit-learn","group":"data","value":72,"color":"#f7931e"},
+  {"name":"spaCy","group":"data","value":70,"color":"#ff9900"},
+  {"name":"Embeddings / RAG","group":"data","value":82,"color":"#7c4dff"},
+
+  {"name":"GitHub Actions","group":"devops","value":70,"color":"#2088ff"},
+  {"name":"Docker (ops)","group":"devops","value":74,"color":"#2496ed"}
+]

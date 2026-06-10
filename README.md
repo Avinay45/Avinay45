@@ -1,6 +1,6 @@
 # Avinay (Vinay) Kumar — Backend • AI Systems • Data Engineering
 
-I design and ship production-grade backend systems and AI-enabled products: retrieval-augmented LLM services, reproducible ETL pipelines, and API-first platforms that deliver measurable outcomes. My work focuses on architecture, reliability, and operational reproducibility — not demos.
+I design and ship production-grade backend systems and AI-enabled products: retrieval-augmented LLM services, reproducible ETL pipelines, and API-first platforms that deliver measurable outcomes. M[...]
 
 Repository highlights (evidence)
 - RAG & LLM products: election-companion, ai-resume-screening-tool, Resume-Screening-RAG-Pipeline
@@ -14,7 +14,7 @@ Links
 ---
 
 ## Professional summary
-I build backend-first systems that combine durable engineering and applied AI. I design retrieval-powered LLM systems, production ETL pipelines, and REST/edge APIs that are reproducible, testable, and deployable. Typical responsibilities I take on: system design, API contract and schema design, vector index strategy for RAG, deployment automation (Docker / Compose / CI), and operational runbooks.
+I build backend-first systems that combine durable engineering and applied AI. I design retrieval-powered LLM systems, reproducible ETL pipelines, and REST/edge APIs that are reproducible, testable,[...]
 
 What I deliver
 - Deterministic retrieval + LLM pipelines for domain assistants
@@ -253,6 +253,15 @@ Developer experience
 - Research artifacts: convert experiment notebooks into reproducible demos with pinned dependencies and Dockerfiles.
 
 (If you want, I will draft contribution ideas and PR templates.)
+
+---
+
+## Interactive Skills
+I've added an interactive Skills page with charts and filters to showcase your technical skills visually. View it here:
+
+[Interactive Skills — click to open](./docs/skills.html)
+
+This page is included in the repo at docs/skills.html. To publish it at https://avinay45.github.io/Avinay45/ enable GitHub Pages (Source: "Deploy from a branch" -> "main" -> "/docs" folder) in this repository's settings.
 
 ---
 

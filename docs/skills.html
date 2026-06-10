@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Avinay's Technical Skills</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--text:#e6eef8;--muted:#9fb0c8;--accent:#7c4dff}
+    body{font-family:Inter, system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial;background:var(--bg);color:var(--text);margin:0;padding:24px}
+    .container{max-width:980px;margin:0 auto}
+    header{display:flex;align-items:center;gap:16px}
+    header h1{margin:0;font-size:20px}
+    .controls{margin-top:16px;display:flex;gap:8px;flex-wrap:wrap}
+    button.filter{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--text);padding:8px 12px;border-radius:8px;cursor:pointer}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.04);padding:18px;border-radius:10px;margin-top:18px}
+    .chart-wrap{height:420px}
+    .legend{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+    .legend .item{display:flex;gap:8px;align-items:center}
+    .dot{width:12px;height:12px;border-radius:4px}
+    footer{margin-top:28px;color:var(--muted);font-size:13px}
+    a.link{color:var(--accent);text-decoration:none}
+    .skill-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:12px}
+    .skill-pill{background:rgba(255,255,255,0.02);padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.02);display:flex;justify-content:space-between;align-items:center}
+    .pct{font-weight:700;color:var(--accent)}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Avinay Kumar — Interactive technical skills</h1>
+      <div style="margin-left:auto;color:var(--muted);font-size:13px">Theme: Dark • Interactive • Filterable</div>
+    </header>
+
+    <p style="color:var(--muted);margin-top:8px">An interactive view of technical skills and proficiencies. Use the filter buttons to focus on Languages, Frameworks, Data & ML, DevOps, or view All.</p>
+
+    <div class="controls">
+      <button class="filter" data-filter="all">All</button>
+      <button class="filter" data-filter="languages">Languages</button>
+      <button class="filter" data-filter="frameworks">Frameworks & Tools</button>
+      <button class="filter" data-filter="data">Data & ML</button>
+      <button class="filter" data-filter="devops">DevOps</button>
+    </div>
+
+    <div class="card">
+      <div class="chart-wrap">
+        <canvas id="skillsChart"></canvas>
+      </div>
+      <div class="legend" id="legend"></div>
+    </div>
+
+    <div class="card">
+      <h3 style="margin:0">Skill details</h3>
+      <div class="skill-list" id="skillList"></div>
+    </div>
+
+    <footer>Hosted from this repository's <code>/docs</code> folder — enable GitHub Pages (main branch, /docs) to publish at <a class="link" href="https://avinay45.github.io/Avinay45/">avinay45.github.io/Avinay45</a>.</footer>
+  </div>
+
+  <script>
+    // Skills data (also saved in docs/skills.json for easy edits)
+    const SKILLS = [
+      {name:'Python',group:'languages',value:90,color:'#3572A5'},
+      {name:'TypeScript',group:'languages',value:82,color:'#2b7489'},
+      {name:'JavaScript',group:'languages',value:78,color:'#f1e05a'},
+      {name:'Java',group:'languages',value:70,color:'#b07219'},
+      {name:'SQL',group:'languages',value:80,color:'#e38c00'},
+      {name:'HTML/CSS',group:'languages',value:72,color:'#e34c26'},
+
+      {name:'FastAPI',group:'frameworks',value:85,color:'#009688'},
+      {name:'LangChain',group:'frameworks',value:82,color:'#7f56da'},
+      {name:'React',group:'frameworks',value:76,color:'#61dafb'},
+      {name:'Next.js',group:'frameworks',value:70,color:'#000000'},
+      {name:'Spring Boot',group:'frameworks',value:65,color:'#6db33f'},
+      {name:'Docker',group:'frameworks',value:76,color:'#2496ed'},
+      {name:'FAISS',group:'frameworks',value:70,color:'#ff7043'},
+      {name:'pgvector',group:'frameworks',value:66,color:'#2ecc71'},
+      {name:'Supabase/Postgres',group:'frameworks',value:74,color:'#2ecc71'},
+
+      {name:'Pandas',group:'data',value:86,color:'#150458'},
+      {name:'NumPy',group:'data',value:80,color:'#013243'},
+      {name:'scikit-learn',group:'data',value:72,color:'#f7931e'},
+      {name:'spaCy',group:'data',value:70,color:'#ff9900'},
+      {name:'Embeddings / RAG',group:'data',value:82,color:'#7c4dff'},
+
+      {name:'GitHub Actions',group:'devops',value:70,color:'#2088ff'},
+      {name:'Docker (ops)',group:'devops',value:74,color:'#2496ed'}
+    ];
+
+    const ctx = document.getElementById('skillsChart').getContext('2d');
+
+    function getFilteredSkills(filter){
+      if(filter === 'all') return SKILLS.slice();
+      return SKILLS.filter(s => s.group === filter);
+    }
+
+    function renderChart(filter='all'){
+      const data = getFilteredSkills(filter).sort((a,b)=>b.value-a.value);
+      const labels = data.map(d=>d.name);
+      const values = data.map(d=>d.value);
+      const colors = data.map(d=>d.color);
+
+      if(window._skillsChart) window._skillsChart.destroy();
+
+      window._skillsChart = new Chart(ctx,{
+        type:'bar',
+        data:{labels, datasets:[{data:values,backgroundColor:colors,borderRadius:6,barThickness:26}]},
+        options:{
+          indexAxis:'y',
+          scales:{x:{beginAtZero:true,max:100,grid:{color:'rgba(255,255,255,0.03)'},ticks:{color:'rgba(255,255,255,0.7)'}},y:{grid:{display:false},ticks:{color:'rgba(255,255,255,0.85)'}}},
+          plugins:{legend:{display:false},tooltip:{enabled:true,backgroundColor:'rgba(0,0,0,0.75)',titleColor:'#fff',bodyColor:'#fff'}}
+        }
+      });
+
+      const legend = document.getElementById('legend');
+      legend.innerHTML = '';
+      data.slice(0,6).forEach(d=>{
+        const el = document.createElement('div');el.className='item';
+        el.innerHTML = `<div class="dot" style="background:${d.color}"></div><div style="color:var(--muted)">${d.name}</div>`;
+        legend.appendChild(el);
+      });
+
+      renderSkillList(data);
+    }
+
+    function renderSkillList(list){
+      const el = document.getElementById('skillList');el.innerHTML='';
+      list.forEach(s=>{
+        const pill = document.createElement('div');pill.className='skill-pill';
+        pill.innerHTML = `<div>${s.name}<div style=\"color:var(--muted);font-size:12px\">${s.group}</div></div><div class=\"pct\">${s.value}%</div>`;
+        el.appendChild(pill);
+      });
+    }
+
+    document.querySelectorAll('button.filter').forEach(b=>{
+      b.addEventListener('click',()=>{
+        document.querySelectorAll('button.filter').forEach(x=>x.style.boxShadow='');
+        b.style.boxShadow = '0 4px 14px rgba(124,77,255,0.12)';
+        renderChart(b.dataset.filter);
+      });
+    });
+
+    // initial
+    renderChart('all');
+  </script>
+</body>
+</html>
