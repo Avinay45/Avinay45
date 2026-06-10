@@ -1,137 +1,285 @@
-# Hey, I'm Avinay 👋
+# Avinay (Vinay) Kumar — Backend • AI Systems • Data Engineering
 
-**Software Engineer | AI/ML Enthusiast | Full-Stack Developer**
+I design and ship production-grade backend systems and AI-enabled products: retrieval-augmented LLM services, reproducible ETL pipelines, and API-first platforms that deliver measurable outcomes. My work focuses on architecture, reliability, and operational reproducibility — not demos.
 
-I'm passionate about building scalable applications and leveraging AI/ML to solve real-world problems. Currently exploring **LLM-powered systems**, **RAG pipelines**, and **modern web technologies**.
+Repository highlights (evidence)
+- RAG & LLM products: election-companion, ai-resume-screening-tool, Resume-Screening-RAG-Pipeline
+- Data engineering & APIs: cloud-data-analytics-pipeline (FastAPI, SQLAlchemy, Postgres)
+- Backend fundamentals: todoapp (Spring Boot + React)
 
----
-
-## 🚀 What I'm Working On
-
-- 🤖 **AI & LLM Projects**: Building RAG systems, AI agents, and intelligent tools
-- 🌾 **Impact-Driven Products**: Creating tech solutions for agriculture and civic participation
-- 🔧 **Full-Stack Development**: TypeScript, Python, React, and cloud-native applications
-
----
-
-## 💼 Featured Projects
-
-### 🏆 Core Projects
-
-| Project | Description | Tech Stack | Impact |
-|---------|-------------|-----------|--------|
-| **[election-companion](https://github.com/Avinay45/election-companion)** | RAG-powered civic assistant helping Indian voters understand and participate in elections | TypeScript, LLM | 🇮🇳 Civic Tech |
-| **[Resume-Screening-RAG-Pipeline](https://github.com/Avinay45/Resume-Screening-RAG-Pipeline)** | LLM-powered resume screening system with dynamic document processing | Python, RAG | 🤖 AI/ML |
-| **[Agri-tech](https://github.com/Avinay45/Agri-tech)** | AI/ML-driven platform to help smallholder farmers optimize yields | Python, ML | 🌾 Agriculture |
-| **[ai-resume-screening-tool](https://github.com/Avinay45/ai-resume-screening-tool)** | Intelligent resume analysis and screening automation | Python, AI | 💼 HR Tech |
-
-### 🎨 Web & Frontend
-
-- **[vinay-s-personal-portfolio](https://github.com/Avinay45/vinay-s-personal-portfolio)** - AI-powered personal portfolio
-- **[aura-weather](https://github.com/Avinay45/aura-weather)** - Modern weather application
-- **[emerald-zinc-folio](https://github.com/Avinay45/emerald-zinc-folio)** - Portfolio showcase
-- **[election-companion](https://github.com/Avinay45/election-companion)** - Full-stack civic app
-
-### 📱 Mobile & Backend
-
-- **[Expenso](https://github.com/Avinay45/Expenso)** - Android expense tracker with MVVM architecture
-- **[personal_portfolio_backend](https://github.com/Avinay45/personal_portfolio_backend)** - RESTful backend service
-- **[TaskForge](https://github.com/Avinay45/TaskForge)** - Task management application
-
-### 📚 Learning & Resources
-
-- **[awesome-leetcode-resources](https://github.com/Avinay45/awesome-leetcode-resources)** - Curated DSA & coding interview resources
-- **[generative-ai-for-beginners](https://github.com/Avinay45/generative-ai-for-beginners)** - 21 lessons for AI fundamentals
-- **[langchain-course](https://github.com/Avinay45/langchain-course)** - Project-based LangChain & LLM agent development
-- **[ollama](https://github.com/Avinay45/ollama)** - Guide to running local LLMs (GPT-oss, DeepSeek-R1, Gemma)
+Links
+- GitHub: https://github.com/Avinay45
+- Feature repos: election-companion · ai-resume-screening-tool · Resume-Screening-RAG-Pipeline · cloud-data-analytics-pipeline · langchain-course · todoapp
 
 ---
 
-## 🛠️ Tech Stack
+## Professional summary
+I build backend-first systems that combine durable engineering and applied AI. I design retrieval-powered LLM systems, production ETL pipelines, and REST/edge APIs that are reproducible, testable, and deployable. Typical responsibilities I take on: system design, API contract and schema design, vector index strategy for RAG, deployment automation (Docker / Compose / CI), and operational runbooks.
 
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+What I deliver
+- Deterministic retrieval + LLM pipelines for domain assistants
+- Reproducible ETL workflows and analytics APIs
+- Clean, layered backend services with observable behavior
+- Minimal, focused frontends and UX for product validation
 
-### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+---
 
-### Backend & Data
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+## Engineering domains
 
-### AI/ML & LLMs
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=openai&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+### AI Systems
+What I build
+- Retrieval-Augmented Generation (RAG) systems with explicit retrieval logic, provenance, and source attribution.
+- Embedding pipelines and scale-aware vector indexing (FAISS / pgvector).
+- Production prompts, LLM orchestration, and deterministic evaluation for business workflows.
+
+How I create value
+- Turn unstructured documents into searchable knowledge with clear relevance metrics.
+- Design retrieval strategies (small-to-big chunking, hybrid retrievers) to reduce hallucination and improve explainability.
+
+### Backend Engineering
+What I build
+- API-first services with versioned endpoints, input validation, and contract tests.
+- Layered backend architecture (Controller → Service → Repository) and robust error handling.
+
+How I create value
+- Reduce integration friction with clear OpenAPI/Swagger contracts and example requests.
+- Protect data flows (auth, RLS where appropriate) and document service SLAs for on-call teams.
+
+### Data Engineering
+What I build
+- Reproducible ETL: ingestion → validation → transformation → storage → analytics.
+- Analytics endpoints that return business KPIs (aggregations, cohort analyses).
+
+How I create value
+- Provide teams with reliable, queryable datasets and APIs for dashboards and ML pipelines.
+- Automate data quality checks and make pipelines re-runnable (Dockerized + versioned schemas).
 
 ### Cloud & DevOps
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+What I build
+- Containerized services (Docker + Compose) and CI pipelines for linting, tests, and builds.
+- Serverless edges for low-latency LLM integration and secure database access patterns.
+
+How I create value
+- Reduce time-to-deploy and ensure reproducible environments for reviewers and hiring managers.
+- Add basic observability (logs, OpenAPI, health checks) so projects are interview-review ready.
+
+### Full-Stack (practical)
+What I build
+- Minimal, purposeful frontends (Next.js / React / Streamlit) that surface product flows and debugging views.
+
+How I create value
+- Ship a small UI for stakeholder validation; keep the backend as the source of truth.
 
 ---
 
-## 📊 GitHub Stats
+## Technical expertise (evidence-based)
+Languages
+- Python · TypeScript · Java · JavaScript · SQL · HTML/CSS
 
+Backend
+- FastAPI · Spring Boot · Node.js / Edge Functions · REST · OpenAPI/Swagger
+
+Frontend
+- Next.js · React · Streamlit · Tailwind CSS · Vite
+
+Databases & Indexing
+- PostgreSQL (Supabase) · pgvector · FAISS · H2 (dev)
+
+AI & Machine Learning
+- LangChain patterns · embeddings (sentence-transformers, gte-small) · spaCy · scikit-learn · RAG design
+
+Data Engineering
+- Pandas · NumPy · SQLAlchemy · synthetic data generation
+
+Cloud & DevOps
+- Docker · Docker Compose · GitHub Actions · AWS S3 (object storage)
+
+Developer tools
+- Git · Postman/Swagger · basic CI workflows
+
+(Only technologies with repository evidence are listed.)
+
+---
+
+## Featured engineering case studies
+
+### 1) ElectionGuide AI — election-companion
+Project overview
+- Production-oriented RAG assistant for Indian election information: eligibility, registration steps, polling booth search, and timeline visualization.
+
+Business problem
+- Reduce misinformation and friction for first-time or infrequent voters; provide state-aware guidance and resources.
+
+Technical architecture
+- Next.js (App Router, UI) → Serverless edge functions (chat & retrieval) → Supabase (Postgres + pgvector) → Embeddings service → LLM gateway.
+- Security: Supabase Auth + Row-Level Security (RLS) patterns for user-scoped features.
+
+Key engineering challenges
+- Multilingual retrieval and prompt conditioning
+- Low-latency retrieval pipeline with 384-dim embeddings + tuned Top-K
+- Secure serverless access to the vector store without exposing keys to the client
+
+Impact
+- Product-ready architecture that demonstrates RAG production patterns and civic impact.
+
+Repository
+- https://github.com/Avinay45/election-companion
+
+---
+
+### 2) AI Resume Screening Tool — ai-resume-screening-tool
+Project overview
+- End-to-end system to parse resumes, build semantic indexes, and provide recruiter-facing ranking and chat.
+
+Business problem
+- Automate first-pass candidate screening and produce consistent, explainable ranking for hiring teams.
+
+Technical architecture
+- PDF parsing (pdfplumber) → NLP extraction (spaCy) → Sentence embeddings → FAISS vector index → RAG retrieval → LLM evaluation → Streamlit dashboard.
+
+Key engineering challenges
+- Robust text extraction from noisy PDFs
+- Deterministic ranking pipeline to enable recruiter trust
+- Integrating FAISS with downstream LLM evaluation and report generation
+
+Impact
+- Prototype that standardizes screening and can be productized into HR tooling.
+
+Repository
+- https://github.com/Avinay45/ai-resume-screening-tool
+
+---
+
+### 3) Resume Screening RAG Pipeline — Resume-Screening-RAG-Pipeline
+Project overview
+- Research-oriented RAG pipeline implementing adaptive retrieval patterns and RAG-fusion strategies.
+
+Business problem
+- Improve LLM reliability on document-grounded tasks by conditioning on curated resume chunks.
+
+Technical architecture
+- Chunking → embeddings → FAISS → hybrid retrieval (query classification + small-to-big retrieval) → LLM conditioning and evaluation → Streamlit demo.
+
+Key engineering challenges
+- Chunk retrieval traceability and provenance for each LLM response
+- Adaptive toggling of retrieval modes based on prompt type
+- Demonstrating RAG fusion techniques end-to-end
+
+Impact
+- Provides a template for reliable, auditable LLM-assisted candidate evaluation.
+
+Repository
+- https://github.com/Avinay45/Resume-Screening-RAG-Pipeline
+
+---
+
+### 4) Cloud Data Analytics Pipeline — cloud-data-analytics-pipeline
+Project overview
+- Reproducible cloud-native ETL pipeline that ingests synthetic transactional data and exposes analytics via a FastAPI service.
+
+Business problem
+- Demonstrate a production-style data pipeline: ingestion, validation, transformation, storage, and analytics API surface.
+
+Technical architecture
+- CSV Generator → S3 raw layer → validation & transformation scripts (Pandas) → SQLAlchemy → Supabase/Postgres → FastAPI analytics endpoints (Swagger).
+
+Key engineering challenges
+- Building reproducible local/dev environments (Docker) for data engineers
+- Designing SQL-friendly schemas and analytic queries for performant aggregation
+- Exposing analytics via stable API contracts
+
+Impact
+- Demonstrates full data lifecycle and API patterns for analytics consumers.
+
+Repository
+- https://github.com/Avinay45/cloud-data-analytics-pipeline
+
+---
+
+### 5) LangChain Course — langchain-course
+Project overview
+- Project-based learning resource that walks through LangChain and agent patterns with practical code examples and exercises.
+
+Value
+- Demonstrates familiarity with LangChain concepts and agent architectures, useful when discussing design trade-offs in interviews.
+
+Repository
+- https://github.com/Avinay45/langchain-course
+
+---
+
+### 6) TodoApp (Spring Boot + React) — todoapp
+Project overview
+- Layered backend example demonstrating DTOs, validation, exception handling, and a React frontend.
+
+Engineering value
+- Solid evidence of classical backend design and clean separation of concerns.
+
+Repository
+- https://github.com/Avinay45/todoapp
+
+---
+
+## System design & engineering principles
+
+System design
+- Design for clear contracts: define OpenAPI first for services and keep backwards-compatible changes.
+- Prioritize observable behaviour: health checks, structured logs, and small smoke tests.
+
+Reliability
+- Favor deterministic pipelines and idempotent operations for ETL and retrieval.
+- Add provenance to retrieval results; expose sources in API responses.
+
+Scalability
+- Separate compute and storage: vector indexes and databases scale independently.
+- Use efficient indexes (HNSW / FAISS / pgvector) and tune top-K/thresholds.
+
+Maintainability
+- Keep code modular and well-typed (where applicable), with small, focused tests and reproducible dev environments (Docker + Compose).
+
+Documentation
+- README should state: problem, architecture, run instructions, demo link, and "my role".
+- Provide minimal runbooks for reproduction and basic troubleshooting.
+
+Developer experience
+- One-command local bootstrap: sample data + docker-compose → run smoke test → see demo.
+- CI enforces linting and smoke tests before merging.
+
+---
+
+## Open source & professional growth
+- Public contributions (recommended next steps): identify 2–3 upstream projects you rely on (LangChain, FAISS integrations, Supabase SDK) and contribute targeted fixes or docs.
+- Technical writing: create concise engineering notes: "Designing production RAG: retrieval, provenance, and costs" and link them in the repo READMEs.
+- Research artifacts: convert experiment notebooks into reproducible demos with pinned dependencies and Dockerfiles.
+
+(If you want, I will draft contribution ideas and PR templates.)
+
+---
+
+## GitHub metrics (place in README for recruiters)
 <div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Avinay45&theme=tokyonight&show_icons=true&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Avinay45&theme=tokyonight&hide_border=true&layout=compact)
-
+  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Avinay45&theme=tokyonight&show_icons=true&hide_border=true)
+  &nbsp;&nbsp;
+  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Avinay45&theme=tokyonight&hide_border=true&layout=compact)
+  <br/>
+  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Avinay45&theme=tokyonight)
+  &nbsp;&nbsp;
+  ![Trophy](https://github-profile-trophy.vercel.app/?username=Avinay45&theme=tokyonight)
 </div>
 
 ---
 
-## 🎓 Areas of Expertise
-
-- **Generative AI & LLMs**: RAG systems, prompt engineering, LangChain, agent architecture
-- **Full-Stack Development**: Building scalable web applications from frontend to backend
-- **Machine Learning**: Classification, regression, statistical analysis, data preprocessing
-- **System Design**: Building performant, maintainable applications
-- **Problem Solving**: Strong foundation in Data Structures & Algorithms
+## Contact
+- LinkedIn: (add your LinkedIn URL)
+- Portfolio / demos: (add hosted demo URLs)
+- Email: you@domain.com
+- GitHub: https://github.com/Avinay45
 
 ---
 
-## 🌱 Currently Learning
-
-- Advanced LLM architectures and fine-tuning techniques
-- Production-grade AI systems and deployment strategies
-- Cloud-native development patterns
-- Advanced system design
-
----
-
-## 💡 What Drives Me
-
-I'm motivated by **building products that matter**—whether it's democratizing access to information, helping smallholder farmers, or making technology more intuitive. I believe in writing clean, maintainable code and contributing to the open-source community.
-
----
-
-## 📫 Let's Connect
-
-- **GitHub**: [@Avinay45](https://github.com/Avinay45)
-- **Email**: [Reach out!](mailto:your-email@example.com)
-
----
-
-## 📈 Recent Activity
-
-I'm consistently exploring new technologies and building projects that solve real problems. Check out my repositories to see what I'm working on!
-
----
-
-<div align="center">
-
-**⭐ If you find my work interesting, consider starring the repos!**
-
-![Profile Views](https://komarev.com/ghpvc/?username=Avinay45&style=flat-square&color=blue)
-
-</div>
+Minimal operational checklist for each featured repo (apply across pinned repos)
+- Add LICENSE (MIT or Apache-2.0)
+- Top-of-README: one-line problem, one-line impact, demo GIF or link
+- Add reproduce script: docker-compose up → run demo script
+- Add basic CI: lint + smoke test
+- Add "my role" and "what I solved" bullets
