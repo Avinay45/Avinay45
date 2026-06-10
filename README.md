@@ -14,7 +14,7 @@ Links
 ---
 
 ## Professional summary
-I build backend-first systems that combine durable engineering and applied AI. I design retrieval-powered LLM systems, reproducible ETL pipelines, and REST/edge APIs that are reproducible, testable,[...]
+I build backend-first systems that combine durable engineering and applied AI. I design retrieval-powered LLM systems, reproducible ETL pipelines, and REST/edge APIs that are reproducible, testabl[...]
 
 What I deliver
 - Deterministic retrieval + LLM pipelines for domain assistants
@@ -72,32 +72,69 @@ How I create value
 
 ---
 
-## Technical expertise (evidence-based)
-Languages
-- Python · TypeScript · Java · JavaScript · SQL · HTML/CSS
+## Technical Skills
 
-Backend
-- FastAPI · Spring Boot · Node.js / Edge Functions · REST · OpenAPI/Swagger
+Below are the exact skills transcribed from the image you provided, organized into categories with inline shields and a plain list for accessibility.
 
-Frontend
-- Next.js · React · Streamlit · Tailwind CSS · Vite
+### Languages & Frameworks
 
-Databases & Indexing
-- PostgreSQL (Supabase) · pgvector · FAISS · H2 (dev)
+![gaming](https://img.shields.io/badge/gaming-222222?style=flat-square)&nbsp; ![Unity](https://img.shields.io/badge/Unity-100000?style=flat-square)&nbsp; ![Framework](https://img.shields.io/badge/Framework-4c1?style=flat-square)&nbsp; ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)&nbsp; ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)&nbsp; ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-AI & Machine Learning
-- LangChain patterns · embeddings (sentence-transformers, gte-small) · spaCy · scikit-learn · RAG design
+- gaming · Unity · Framework · Node.js · JavaScript · TypeScript
 
-Data Engineering
-- Pandas · NumPy · SQLAlchemy · synthetic data generation
+### Frontend & Libraries
 
-Cloud & DevOps
-- Docker · Docker Compose · GitHub Actions · AWS S3 (object storage)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)&nbsp; ![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white)&nbsp; ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 
-Developer tools
-- Git · Postman/Swagger · basic CI workflows
+- React · Redux · HTML5
 
-(Only technologies with repository evidence are listed.)
+### Styling
+
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)&nbsp; ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)&nbsp; ![styled-components](https://img.shields.io/badge/styled--components-DB7093?style=flat-square)
+
+- Bootstrap · CSS3 · styled-components
+
+### Databases & Query
+
+![Database](https://img.shields.io/badge/Database-FF8C00?style=flat-square)&nbsp; ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)&nbsp; ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)&nbsp; ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square)
+
+- Database · MongoDB · PostgreSQL · SQLite
+
+### API & Authentication
+
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)&nbsp; ![JWT](https://img.shields.io/badge/JWT-222222?style=flat-square)
+
+- GraphQL · JWT
+
+### Build & Task Runners
+
+![GULP](https://img.shields.io/badge/GULP-CF4647?style=flat-square)
+
+- GULP
+
+### Design & Package Tools
+
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)&nbsp; ![NPM](https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white)
+
+- Figma · NPM
+
+### Platforms & Hosting
+
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)&nbsp; ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)&nbsp; ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)&nbsp; ![Bitbucket](https://img.shields.io/badge/Bitbucket-205081?style=flat-square&logo=bitbucket&logoColor=white)
+
+- Heroku · Git · GitHub · Bitbucket
+
+### Testing
+
+![cypress](https://img.shields.io/badge/cypress-17202C?style=flat-square)&nbsp; ![jest](https://img.shields.io/badge/jest-C21325?style=flat-square&logo=jest&logoColor=white)&nbsp; ![mocha](https://img.shields.io/badge/mocha-8D6748?style=flat-square)
+
+- cypress · jest · mocha
+
+### Servers & CI
+
+![nginx](https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white)&nbsp; ![jenkins](https://img.shields.io/badge/jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+
+- nginx · jenkins
 
 ---
 
@@ -261,7 +298,7 @@ I've added an interactive Skills page with charts and filters to showcase your t
 
 [Interactive Skills — click to open](./docs/skills.html)
 
-This page is included in the repo at docs/skills.html. To publish it at https://avinay45.github.io/Avinay45/ enable GitHub Pages (Source: "Deploy from a branch" -> "main" -> "/docs" folder) in this repository's settings.
+This page is included in the repo at docs/skills.html. To publish it at https://avinay45.github.io/Avinay45/ enable GitHub Pages (Source: "Deploy from a branch" -> "main" -> "/docs" folder) in th[...]
 
 ---
 
@@ -271,7 +308,7 @@ This page is included in the repo at docs/skills.html. To publish it at https://
   &nbsp;&nbsp;
   ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Avinay45&theme=tokyonight&hide_border=true&layout=compact)
   <br/>
-  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Avinay45&theme=tokyonight)
+  ![GitHub Streak](https://github-readme-stats.vercel.app/api?user=Avinay45&theme=tokyonight)
   &nbsp;&nbsp;
   ![Trophy](https://github-profile-trophy.vercel.app/?username=Avinay45&theme=tokyonight)
 </div>
